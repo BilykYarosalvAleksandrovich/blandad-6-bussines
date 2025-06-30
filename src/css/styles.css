@@ -12,6 +12,12 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./work.css');
+@import url('./product.css');
+@import url('./management.css');
+@import url('./customer.css');
+@import url('./collaborative.css');
+@import url('./process.css');
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
