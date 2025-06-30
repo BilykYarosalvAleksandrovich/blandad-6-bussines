@@ -1,0 +1,136 @@
+.price-table {
+  padding-top: 85px;
+  padding-bottom: 50px;
+}
+
+.price-tible-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price-table-subtitle-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  margin-bottom: 40px;
+}
+.price-table-subtitle-text {
+  position: relative;
+}
+.price-tible-item.current {
+  background-color: #02897a;
+}
+
+.price-table-subtitle-text::after {
+  content: "$";
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.price-table-span {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+
+.price-table-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.price-tible-second-list {
+  margin-bottom: 30px;
+}
+
+.price-tible-list {
+  display: flex;
+  gap: 72px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.price-tible-item {
+  width: 322px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  /* width: calc(100% (2 * 72px) / 3); */
+}
+.price-table-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+
+.fifth {
+  border: none;
+  box-shadow: none;
+  padding: unset;
+}
+.price-tible-subtitle.six,
+.price-table-text.six,
+.price-table-span.six,
+.price-table-link.six {
+  color: #fff;
+}
+
+.fifth:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.price-tible-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.fourth {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+}
+.price-title-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  min-width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  border: none;
+}
+
+.seven {
+  background-color: #fff;
+  color: #02897a;
+}
