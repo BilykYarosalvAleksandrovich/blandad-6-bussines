@@ -1,0 +1,25 @@
+.our-clients {
+  padding-top: 100px;
+  padding-bottom: 117px;
+}
+.our-clients-container {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.our-clients-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.our-clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.our-clients-item {
+}
+.our-clients-pictures {
+}
